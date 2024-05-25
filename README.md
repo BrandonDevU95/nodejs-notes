@@ -20,4 +20,16 @@ Node.js es un entorno de ejecución para JavaScript construido con el motor de J
 
 ## Función para obtener un puerto disponible
 
-A veces necesitamos encontrar un puerto disponible en nuestra máquina para levantar un servidor. Aquí está una función que he creado para hacer justamente eso:
+Aquí encontrarás una función que he escrito para obtener un puerto disponible en el que se puede levantar un servidor. Esta función es especialmente útil cuando quieres evitar conflictos de puertos en tus aplicaciones.
+
+##Creación de un servidor con Node.js y el módulo HTTP
+En esta sección, he detallado cómo crear un servidor básico utilizando Node.js y el módulo HTTP. Este es uno de los primeros pasos para construir aplicaciones web con Node.js.
+
+##Sistema de rutas en un servidor Node.js
+Aquí explico cómo implementar un sistema de rutas simple en un servidor Node.js. Esto es fundamental para manejar diferentes rutas y métodos HTTP en tu aplicación.
+
+##Creación de un servidor con Express
+Express es un framework minimalista para Node.js que facilita la creación de aplicaciones web y APIs. En esta sección, muestro cómo crear un servidor básico utilizando Express.
+
+##Creación de una API REST con Express
+Por último, he incluido un ejemplo de cómo crear una API RESTful utilizando Express. Este es un paso crucial para desarrollar servicios backend modernos.
