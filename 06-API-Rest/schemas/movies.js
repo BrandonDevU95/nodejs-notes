@@ -31,10 +31,14 @@ const movieSchema = z.object({
 	),
 });
 
+//safeParse devuelve un objeto con un error si no se cumple el schema, y
+//si se cumple, devuelve un booleano.
 function validateMovie(input) {
 	return movieSchema.safeParse(input);
 }
 
+//el partial es para cuando se quiera actualizar solo una parte del objeto,
+//hace que todas las propiedades sean opcionales
 function validatePartialMovie(input) {
 	return movieSchema.partial().safeParse(input);
 }
